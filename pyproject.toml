@@ -1,7 +1,25 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
 [project]
 name = "set-algebra-solver-py"
 version = "0.1.0"
-description = "Add your description here"
+description = "Set algebra parser and identity checker"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3"]
+
+[project.scripts]
+set-algebra-solver = "set_algebra_solver.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/set_algebra_solver"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = "-q"
