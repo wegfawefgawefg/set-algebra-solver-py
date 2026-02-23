@@ -1,5 +1,7 @@
 # set-algebra-solver-py
 
+![Repo icon](assets/repo-icon.svg)
+
 A small set algebra workbench in Python for parsing expressions and checking identity behavior under different set relationships.
 
 I first picked this project up in March 2025 around the Gemini 2.5 release. During a drive cleanup, I found it again and resumed development.

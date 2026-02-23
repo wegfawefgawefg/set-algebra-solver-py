@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Overlapping set expressions icon">
+  <rect width="1024" height="1024" fill="#ffffff"/>
+
+  <g fill="#000000" font-family="Menlo, Consolas, 'Liberation Mono', monospace" font-weight="600" font-size="38">
+    <text x="72" y="170" opacity="0.25" transform="rotate(-13 72 170)">A | B = B | A</text>
+    <text x="130" y="275" opacity="0.16" transform="rotate(9 130 275)">A &amp; (B | C) = (A &amp; B) | (A &amp; C)</text>
+    <text x="60" y="380" opacity="0.12" transform="rotate(-7 60 380)">A - (B | C) = (A - B) &amp; (A - C)</text>
+    <text x="210" y="470" opacity="0.20" transform="rotate(14 210 470)">(A - B) | (A &amp; B) = A</text>
+    <text x="70" y="565" opacity="0.10" transform="rotate(-18 70 565)">A &amp; B &lt;= A</text>
+    <text x="150" y="660" opacity="0.28" transform="rotate(6 150 660)">A &amp; B = B &amp; A</text>
+    <text x="40" y="760" opacity="0.14" transform="rotate(-4 40 760)">A | (B &amp; C) = (A | B) &amp; (A | C)</text>
+    <text x="260" y="860" opacity="0.22" transform="rotate(11 260 860)">(A - B) &amp; B = {}</text>
+
+    <text x="390" y="150" opacity="0.08" transform="rotate(19 390 150)">A | A = A</text>
+    <text x="420" y="240" opacity="0.18" transform="rotate(-10 420 240)">A &amp; A = A</text>
+    <text x="450" y="332" opacity="0.11" transform="rotate(15 450 332)">A - A = {}</text>
+    <text x="350" y="425" opacity="0.21" transform="rotate(-6 350 425)">A | {} = A</text>
+    <text x="390" y="520" opacity="0.09" transform="rotate(12 390 520)">A &amp; {} = {}</text>
+    <text x="470" y="610" opacity="0.17" transform="rotate(-16 470 610)">A - {} = A</text>
+    <text x="360" y="705" opacity="0.13" transform="rotate(8 360 705)">A &lt;= B  and  B &lt;= A  =&gt;  A = B</text>
+    <text x="420" y="810" opacity="0.24" transform="rotate(-9 420 810)">A &amp; (A | B) = A</text>
+
+    <text x="620" y="210" opacity="0.20" transform="rotate(-14 620 210)">A | (A &amp; B) = A</text>
+    <text x="560" y="305" opacity="0.12" transform="rotate(7 560 305)">(A | B) - B = A - B</text>
+    <text x="610" y="400" opacity="0.26" transform="rotate(-5 610 400)">A - (A &amp; B) = A - B</text>
+    <text x="540" y="495" opacity="0.15" transform="rotate(17 540 495)">(A | B) &amp; (A - B) = A - B</text>
+    <text x="630" y="590" opacity="0.10" transform="rotate(-8 630 590)">A &amp; (B - A) = {}</text>
+    <text x="560" y="685" opacity="0.23" transform="rotate(13 560 685)">(A - B) | (B - A) = symmetric_diff(A,B)</text>
+    <text x="620" y="780" opacity="0.14" transform="rotate(-12 620 780)">A &amp; B &lt;= A | B</text>
+    <text x="575" y="875" opacity="0.19" transform="rotate(5 575 875)">A | B | C = C | B | A</text>
+  </g>
+</svg>
